@@ -14,15 +14,13 @@ yarn-error.log*
 # Build outputs
 dist/
 build/
-*.tgz
-*.tar.gz
+out/
 
-# IDE and editor files
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS generated files
 .DS_Store
