@@ -183,25 +183,6 @@ E-Commerce App/
 3. **Manage Inventory**: Update product information
 4. **Process Orders**: View and manage customer orders
 
-## 🔧 API Endpoints
-
-### Authentication
-- `POST /api/user/register` - User registration
-- `POST /api/user/login` - User login
-- `POST /api/user/admin` - Admin login
-
-### Products
-- `GET /api/product/list` - Get all products
-- `POST /api/product/add` - Add new product (admin only)
-- `POST /api/product/remove` - Remove product (admin only)
-- `POST /api/product/single` - Get single product details
-
-### Cart
-- `POST /api/cart/add` - Add item to cart
-- `GET /api/cart/get` - Get user's cart
-- `PUT /api/cart/update` - Update cart item quantity
-- `DELETE /api/cart/remove` - Remove item from cart
-
 ## 🎨 Key Features Implementation
 
 ### Shopping Cart
@@ -210,44 +191,11 @@ E-Commerce App/
 - **Real-time Updates**: Cart count updates immediately
 - **Size Selection**: Products require size selection before adding
 
-### Product Management
-- **Image Upload**: Multiple images per product via Cloudinary
-- **Category Filtering**: Filter by Men, Women, Kids categories
-- **Search Functionality**: Search by product name and description
-- **Best Sellers**: Featured products section
-
 ### User Experience
 - **Responsive Design**: Works on all device sizes
 - **Loading States**: Smooth loading animations
 - **Error Handling**: User-friendly error messages
 - **Toast Notifications**: Success/error feedback
-
-## 🔒 Security Features
-
-- **JWT Authentication**: Secure token-based authentication
-- **Password Hashing**: bcrypt for password security
-- **Protected Routes**: Admin-only access to sensitive endpoints
-- **Input Validation**: Server-side validation for all inputs
-- **CORS Configuration**: Proper cross-origin resource sharing
-
-## 🚀 Deployment
-
-### Backend Deployment
-1. Set up MongoDB Atlas or local MongoDB
-2. Configure environment variables
-3. Deploy to platforms like Heroku, Railway, or DigitalOcean
-
-### Frontend Deployment
-1. Build the project: `npm run build`
-2. Deploy to Vercel, Netlify, or GitHub Pages
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
 
 ## 📄 License
 
@@ -269,5 +217,4 @@ This project is licensed under the MIT License.
 ---
 
 ⭐ **Star this repository if you found it helpful!**
-#   T i l l u - W e a r s  
- 
+#
